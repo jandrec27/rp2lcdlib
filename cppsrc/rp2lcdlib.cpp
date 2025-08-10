@@ -5,7 +5,7 @@
 #include "pico/stdlib.h"
 #include "hardware/i2c.h"
 #include "pico/binary_info.h"
-#include "SimpleLCD.hpp"
+#include "rp2lcdlib.hpp"
 
 uint8_t LCD_Addr = 0x27;
 i2c_inst* LCD_I2C_INST = i2c_default;
